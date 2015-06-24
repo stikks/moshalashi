@@ -1,0 +1,23 @@
+<ion-modal-view class="variant_wrap" ng-controller='ShareController' ng-click='shareModal.hide()'>
+	<ion-content class="product_variant_popup" style="margin: 15em 20px 0 20px;">
+	   	<div class="additional_link">
+			<div class="row">
+				<div class="col d_link_wrap">
+					<div class="d_link green">
+						<div class="icon" ng-click="shareApp('whatsapp')"><i class="ion-social-whatsapp-outline"></i></div>
+					</div>
+				</div>
+				<div class="col d_link_wrap">
+					<div class="d_link purple">
+						<div class="icon" ng-click="shareApp('twitter')"><i class="ion-social-twitter-outline"></i></div>
+					</div>
+				</div>
+				<div class="col d_link_wrap l_green">
+					<div class="d_link">
+						<div class="icon" ng-click="shareApp('facebook')"><i class="ion-social-facebook-outline"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-modal-view>

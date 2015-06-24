@@ -1,0 +1,24 @@
+<ion-view view-title='Mosques' on-drag-left="changePage('app.map')">
+  <ion-content>
+  	<div class="list card" ng-repeat='mosque in mosques'>
+      <div class="item">
+        <h3><i class="icon ion-ios-moon"></i> {{mosque.name}}</h3>
+        <h2><i class='icon ion-map'></i> {{mosque.vicinity}}</h2>
+      </div>
+      <div class="item tabs tabs-secondary tabs-icon-left">
+        <a class="tab-item">
+          <i class="icon ion-compass"></i>
+          Directions
+        </a>
+        <a class="tab-item">
+          <i class="icon ion-ios-people"></i>
+          Follow
+        </a>
+        <a class="tab-item">
+          <i class="icon ion-share"></i>
+          Share
+        </a>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

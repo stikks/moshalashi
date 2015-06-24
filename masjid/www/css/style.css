@@ -1,0 +1,236 @@
+.backgrnd{
+	background: #efefef;
+}
+.banner_slider .slider{
+	width: 100%;
+	height: 10em;
+	margin-bottom: 0.5em;
+}
+.slide_cont{
+	background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+	height: 100%;
+}
+.slide_product > div{
+    width: 49.5%;
+    padding: 0px;
+    margin: 0% 2% 1% 0%;
+    height: auto;
+    border: 1px solid #fbfbfb;
+    display: inline-block;
+    /*box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1);*/
+}
+.slide_product > div .pro_image{
+	background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    height: 9em;
+    /*background-color: #FBF9FC;*/
+}
+.slide_product > div .pro_info{
+	background-color: #fff;
+    height: 4em;
+    border-top: 1px solid #f7f7f7;
+}
+.slide_product > div .pro_info .details_info{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #494F59;
+	font-size: 0.9em;
+}
+.slide_product > div .pro_info .price_info{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #257AA9;
+	font-size: 1em;
+}
+.slide_product > div img{
+	width:100%;
+    height: auto;
+}
+
+.slide_categories_wrap{
+	/*padding: 10px;*/
+}
+.slide_categories_wrap .title{
+	padding: 10px;
+	background: #fff;
+	color: #999;
+	font-weight: bold;
+	border-bottom: 1px solid #f7f7f7;
+}
+.slide_categories_wrap .slide_categories{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 10px;
+}
+.pos_fixed {
+    position: relative;
+    top: 10px;
+    left: 308px;
+    text-decoration: none;
+    color: black;
+}
+button.pos_fixed {
+	position: relative;
+    top: 10px;
+    left: 282px;
+}
+.error {
+	color: red;
+	text-align: center;
+}
+.about_background{
+	background-color: rgb(255, 255, 255);
+}
+.about_content{
+	padding:2em 1em;
+	display: inline-block;
+}
+.about_wrap{
+	text-align: center;
+	padding: 40px;
+	height: auto;
+}
+.about_logo{
+	margin-top: 2em;
+}
+.variant_wrap{
+	background: rgba(0,0,0,0.5);
+}
+.additional_link{
+	height: auto;
+	background: #ffffff;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 5px;
+}
+.additional_link .d_link_wrap:last-child{
+	border-right: none;
+}
+.additional_link .d_link_wrap{
+	border-right: 1px solid #e7e7e7;
+	height: 45px;
+	text-align: center;
+	color: #444;
+}
+.additional_link .d_link{
+
+}
+.additional_link .d_link .icon{
+	font-size: 25px;
+}
+.additional_link .d_link .text{
+	font-size: 12px;
+}
+.green{
+	color: #021542;
+}
+.purple{
+	color: #260126;
+}
+.l_green{
+	color: #354458
+}
+.login_wrap{
+	height: 47em;
+}
+.login_wrap .login_logo_wrap{
+	height: 13em;
+	text-align: center;
+	padding: 40px;
+	background: #fbfbfb;
+}
+.about_logo{
+	margin-top: 2em;
+}
+.login_logo{
+	text-align: center; 
+	font-size:18px
+}
+.divider{
+	background: #EDEEEF;
+  	padding: 5px 10px;
+  	text-transform: uppercase;
+  	font-size: 13px;
+  	color: #555;
+  }
+.login_wrap .login_logo_wrap .login_logo, .about_wrap .about_logo{
+	overflow: hidden;
+	background-repeat:no-repeat;
+    background-position: top center;
+    background-size: auto 100%;
+    height: 5em;
+    overflow: hidden;
+}
+.login_background{
+	background-color: rgba(37, 122, 169, 0.9);
+}
+.login_wrap .login_form_wrap{
+	height: 30em;
+	padding: 80px 10px 10px 10px;
+}
+
+.login_wrap .signup_form_wrap{
+	height: 30em;
+	padding: 35px 10px 10px 10px;
+
+}
+
+.login_wrap .login_form_wrap .logo_form{
+	height: 20em;
+}
+
+.login_wrap .login_form_wrap .logo_form input{
+
+}
+.categories_wrap{
+ 	width: 100%;
+ 	height: auto;
+ 	padding-bottom: 10px;
+ 	margin-bottom: 10px;
+ 	background: #fff;
+ }
+ .categories_wrap .title{
+ 	height: 3em;
+ 	line-height: 1.9em;
+ 	border-bottom: 1px solid #fbfbfb;
+ 	padding: 10px;
+ 	color: #999;
+ }
+ .categories_wrap .category_image_wrap{
+ 	width: 100%;
+ 	height: 5em;
+ }
+ .categories_wrap .category_image_wrap .category_image{
+	width: 24%;
+	height: 100%;
+	display: inline-block;
+	background-repeat:no-repeat;
+    background-position: top center;
+    background-size: auto 100%;
+  }
+  .checkin {
+ 	font-size: 27px;
+  	color: white;
+ }
+
+.footer_button{
+	width:200px;
+}
+.footer_icon {
+	font-size: 30px;
+	position: relative;
+	top: 4px;
+	color: black
+}
+.home {
+	background-color: black;
+	color: white;
+}

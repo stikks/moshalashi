@@ -1,0 +1,52 @@
+<ion-modal-view ng-controller='SignupCtrl'>
+  <ion-header-bar>
+    <h1 class="title" style="text-align:center">Signup</h1>
+    <div class="buttons">
+      <button class="button button-clear icon ion-ios-close-empty" ng-click="SignupModal.hide()"></button>
+    </div>
+  </ion-header-bar>
+  <ion-content style='background: #EDEEEF;'>
+    <div class="divider"></div>
+    <div>
+      <img src="http://img07.deviantart.net/80ad/i/2011/189/6/4/masjid_al_haram_by_imad95-d3lg8p9.jpg" height="240" width="480">
+    </div>
+    <div class="divider"></div>
+    <div>
+      <form ng-submit="save()" style="background: #EDEEEF;">
+      <div class="list">
+        <div class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="obj.username">
+        </div><br ng-if=errors.username>
+        <div class="error">
+          <span>{{errors.username}}</span>
+        </div><br ng-if=errors.username>
+        <div class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="obj.password">
+        </div><br ng-if=errors.password>
+        <div class="error">
+          <span>{{errors.password}}</span>
+        </div><br ng-if=errors.password>
+        <div class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="obj.password">
+        </div><br ng-if=errors.password>
+        <div class="error">
+          <span>{{errors.password}}</span>
+        </div><br ng-if=errors.password>
+        <div class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="obj.password">
+        </div><br ng-if=errors.password>
+        <div class="error">
+          <span>{{errors.password}}</span>
+        </div><br ng-if=errors.password>
+        <label class="item">
+          <button class="button button-block button-dark" type="submit">Sign Up</button>
+        </label>
+      </div>
+      </form>
+    </div>
+  </ion-content>
+</ion-modal-view>

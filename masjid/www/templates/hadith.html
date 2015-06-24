@@ -1,0 +1,44 @@
+<ion-view view-title='Hadith'>
+  	<ion-content on-drag-left="changePage('app.duas')" "overflow-scroll = true">
+  		<a ng-show='isLoggedIn()' class="pos_fixed icon ion-plus-circled" href='javascript:void(0);' ng-click='addHadith()'>
+  			ADD
+  		</a>
+  		<div class="list card" ng-repeat='hadith in hadiths'>
+	      <ion-list>
+	      	    <h3 class="item item-divider icon ion-bookmark">
+		          Narrated by {{hadith.source}}
+		        </h3>
+		        <h2 class="item item-text-wrap icon ion-ios-bookmarks-outline">
+		          {{hadith.text}}
+		        </h2>
+	      </ion-list>
+	    </div>
+  	</ion-content>
+</ion-view>
+
+<script id="add_hadith.html" type="text/ng-template">
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">Add Hadith</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="list">
+        <div class="item item-input">
+          <input type="text" placeholder='Narrated By...' ng-model="hadith.source">
+        </div>
+        <div ng-if='errors.source' class='error'>
+        	<span ng-bind='errors.source'></span>
+        </div>
+        <div class="item item-input">
+           <textarea rows="6" cols="80" placeholder='Text' ng-model='hadith.text'></textarea>
+        </div>
+        <div ng-if='errors.text' class='error'>
+        	<span ng-bind='errors.text'></span>
+        </div>
+      </div>
+
+      <button class="button pos_fixed button-small button-assertive" ng-click="closeModal()">Cancel</button>
+      <button class="button pos_fixed button-small button-dark" ng-click="save()">Save</button>
+    </ion-content>
+  </div>
+</script>

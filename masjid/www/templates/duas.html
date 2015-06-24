@@ -1,0 +1,53 @@
+<ion-view view-title='Duas'>
+  	<ion-content>
+  		<a ng-show='isLoggedIn()' class="pos_fixed icon ion-plus-circled" href='javascript:void(0);' ng-click='modal.show()'>
+  			ADD
+  		</a>
+  		<div class="list card" ng-repeat='obj in objects'>
+	      <ion-list>
+	      	  <h3 ng-if='obj.name' class="item item-divider">
+		          {{obj.name}}
+		        </h3>
+            <h3 ng-if='obj.source' class="item item-divider">
+              Narrated by {{obj.source}}
+            </h3>
+		        <h2 class="item item-text-wrap">
+		          {{obj.text}}
+		        </h2>
+	      </ion-list>
+	    </div>
+  	</ion-content>
+</ion-view>
+
+<script id="add_dua.html" type="text/ng-template">
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">Add Dua</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="list">
+        <div class="item item-input">
+          <input type="text" placeholder='Name..' ng-model="dua.name">
+        </div>
+        <div ng-if='errors.name' class='error'>
+          <span ng-bind='errors.name'></span>
+        </div>
+        <div class="item item-input">
+          <input type="text" placeholder='Source...' ng-model="dua.source">
+        </div>
+        <div ng-if='errors.source' class='error'>
+        	<span ng-bind='errors.source'></span>
+        </div>
+        <div class="item item-input">
+           <textarea rows="6" cols="80" placeholder='Text' ng-model='dua.text'></textarea>
+        </div>
+        <div ng-if='errors.text' class='error'>
+        	<span ng-bind='errors.text'></span>
+        </div>
+      </div>
+
+      <button class="button pos_fixed button-small button-assertive" ng-click="modal.hide()">Cancel</button>
+      <button class="button pos_fixed button-small button-dark" ng-click="save()">Save</button>
+    </ion-content>
+  </div>
+</script>
