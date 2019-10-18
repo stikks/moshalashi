@@ -136,7 +136,7 @@ urllib3==1.10.2
 user-agents==0.3.2
 WeasyPrint==0.23
 webassets==0.10.1
-Werkzeug==0.10.1
+Werkzeug==0.15.3
 WTForms==2.0.2
 WTForms-JSON==0.2.8
 wtforms-recaptcha==0.3.2
