@@ -132,7 +132,7 @@ twill==1.8.0
 ua-parser==0.3.6
 ujson==1.33
 unittest2==0.8.0
-urllib3==1.10.2
+urllib3==1.26.5
 user-agents==0.3.2
 WeasyPrint==0.23
 webassets==0.10.1
