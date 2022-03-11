@@ -84,7 +84,7 @@ passlib==1.6.2
 pathlib==1.0.1
 pbr==0.10.7
 phonenumbers==7.0.2
-Pillow==2.8.2
+Pillow==9.0.1
 premailer==2.8.2
 prettytable==0.7.2
 psycopg2==2.6
