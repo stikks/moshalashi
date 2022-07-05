@@ -130,7 +130,7 @@ tornado==4.1
 twilio==3.7.1
 twill==1.8.0
 ua-parser==0.3.6
-ujson==1.33
+ujson==5.4.0
 unittest2==0.8.0
 urllib3==1.10.2
 user-agents==0.3.2
