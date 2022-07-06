@@ -53,7 +53,7 @@ Flask-WeasyPrint==0.4
 Flask-WTF==0.11
 futures==2.2.0
 greenlet==0.4.5
-html5lib==0.9999
+html5lib==0.999999999
 htmlmin==0.1.6
 httplib2==0.9.1
 iso8601==0.1.10
