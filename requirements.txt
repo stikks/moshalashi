@@ -64,7 +64,7 @@ keyring==5.3
 kombu==3.0.26
 line-profiler==1.0
 lxml==3.4.4
-Mako==1.0.1
+Mako==1.2.2
 MarkupSafe==0.23
 mock==1.0.1
 msgpack-python==0.4.6
