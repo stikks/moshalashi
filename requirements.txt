@@ -78,7 +78,7 @@ os-virtual-interfacesv2-python-novaclient-ext==0.19
 oslo.config==1.11.0
 oslo.i18n==1.6.0
 oslo.serialization==1.5.0
-oslo.utils==1.5.0
+oslo.utils==4.10.1
 paramiko==1.15.2
 passlib==1.6.2
 pathlib==1.0.1
